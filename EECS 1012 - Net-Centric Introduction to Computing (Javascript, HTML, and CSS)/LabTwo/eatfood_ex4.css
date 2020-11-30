@@ -1,0 +1,63 @@
+
+/* how to style with css */
+.sky {
+  background-color: rgb(168, 213, 255);
+}
+
+
+body {
+  font-family: impact;
+  border: 7px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/background.gif");
+  overflow: visible;
+
+width: 50%;
+height:50%;
+}
+
+img {
+  overflow: hidden;
+  float: right;
+  width: 200px;
+  height: auto;
+  overflow-x: 0;
+  overflow-y: 0;
+  margin: -55px;
+  padding-top: 30px;
+  padding-right: 45px;
+  padding-left: -40px
+}
+
+
+/* id can only be used once */
+#red {
+  text-align: right;
+}
+
+/* class can be reused as much as possible */
+.orange {
+  text-align: right;
+}
+
+.blue {
+  background-color: rgb(196, 226, 255);
+  border: 2px solid rgb(168, 213, 255 );
+  padding-bottom: 80px;
+  padding-right: 17px;
+  margin-top: 10px;
+}
+
+.purple {
+  border-bottom: 2px dashed black;
+}
+
+
+#yellow {
+  text-align: center;
+}
+
+#white {
+  background-color:white;
+}

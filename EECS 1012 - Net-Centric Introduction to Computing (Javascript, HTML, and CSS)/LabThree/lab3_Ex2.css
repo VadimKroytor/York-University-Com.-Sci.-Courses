@@ -1,0 +1,85 @@
+/* add your CSS code for lab3_ex2.css here */
+#main {
+  margin: auto;
+  width: 400px;
+  padding: 40px;
+  border: solid #999999 5px;
+  background-color: #EEEEEE;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url("background.png");
+  font-family: sans-serif;
+}
+
+.border1 {
+}
+.border2 {
+  border: solid black 3px;
+}
+
+img {
+  margin-left: 75px;
+}
+
+.marginauto {
+  margin: auto;
+}
+
+hr {
+  color: white;
+  height: 1px;
+  border: 0;
+}
+
+#white {
+  border: solid black 1px;
+  background-color: white;
+}
+
+#red {
+  border: solid red 1px;
+  background-color: red;
+  color: white;
+}
+
+#blue {
+  border: solid blue 1px;
+  background-color: blue;
+  color: white;
+}
+
+#green {
+  border: solid green 1px;
+  background-color: green;
+  color: white;
+}
+
+
+#shirtmargin {
+  margin-left: 120px;
+}
+
+.textInput {
+  font: monospace;
+  background-color: white;
+  width: 50px;
+  color: black;
+  text-align: right;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 5px;
+  float: right; width: 150px;
+  overflow: hidden;
+}
+
+input[type= "submit"] {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: left;
+  margin-top: 20px;
+}

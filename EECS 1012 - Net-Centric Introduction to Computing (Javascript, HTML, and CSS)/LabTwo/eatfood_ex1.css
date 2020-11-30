@@ -1,0 +1,35 @@
+
+/* how to style with css */
+body {
+  border: 7px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 50%;
+height:50%;
+}
+/* id can only be used once */
+#red {
+  border: 2px solid red;
+}
+
+/* class can be reused as much as possible */
+.orange {
+  border: 2px solid orange;
+}
+
+.blue {
+  border: 2px solid blue;
+}
+
+.purple {
+  border: 2px solid purple;
+}
+
+p {
+  border: 2px solid black;
+}
+
+#yellow {
+  border: 2px solid yellow;
+}

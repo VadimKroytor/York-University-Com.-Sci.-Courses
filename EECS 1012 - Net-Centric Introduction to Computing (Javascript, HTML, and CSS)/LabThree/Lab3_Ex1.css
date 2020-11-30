@@ -1,0 +1,53 @@
+body {
+  font-family: monospace;
+
+}
+
+#main {
+margin: auto;
+  width: 250px;
+  padding: 5px
+}
+
+.textInput
+{
+  text-align: left;
+  width: 100px;
+  background-color: rgb(70,70,70);
+  color: white;
+}
+
+.float {
+  float: left; width: 200px;
+  overflow: hidden;
+  clear: both;
+}
+
+img
+{
+  margin-left: 40px;
+}
+
+hr {
+  border-color: white;
+  height: 1px;
+  border: 0;
+}
+
+.textalign {
+  text-align: right;
+}
+
+p {
+  margin: 2px;
+}
+
+input[type= "submit"] {
+  padding: 5px;
+  background-color: black;
+  color:white;
+}
+
+.margin {
+  margin-left: 30px;
+}

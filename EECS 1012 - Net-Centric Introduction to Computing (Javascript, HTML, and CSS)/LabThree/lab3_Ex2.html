@@ -1,0 +1,74 @@
+<!-- Lab3 Task 2 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nerd Shirt </title>
+    <link href="lab3_Ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id= "main">
+  <form action= "https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method= "get">
+    <div>
+    <fieldset>
+      <legend>Select Shirt! </legend>
+      <img class = "border2" src= "tshirt.png" height ="250" alt="tshirt">
+      <hr>
+
+      <label id = "white">
+      <input type="radio" name="color" value="White"> White
+      </label>
+
+      <label id= "red">
+      <input type="radio" name="color" value="Red"> Red
+      </label>
+
+      <label id= "blue">
+      <input type="radio" name="color" value="Blue"> Blue
+      </label>
+
+      <label id= "green">
+      <input type= "radio" name= "color" value="Green"> Green
+      </label>
+      <hr>
+      <label id = "shirtmargin">
+      Size: <select name= "size">
+        <option> Small </option>
+        <option> Medium </option>
+        <option> Large </option>
+        <option> Extra Large </option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+    <legend> Payment </legend>
+    <hr>
+    <input type= "radio" name= "cardType" value= "Visa"> Visa
+    <input type= "radio" name= "cardType" value= "MC"> MasterCard
+    <input type= "radio" name= "cardType" value= "AE"> American Express
+    <hr>
+
+    Card Number
+    <input class = "textInput" type= "text" name= "cc1" maxlength="4">-
+    <input class = "textInput" type= "text" name= "cc2" maxlength="4">-
+    <input class = "textInput" type= "text" name= "cc3" maxlength="4">-
+    <input class = "textInput" type= "text" name= "cc4" maxlength="4">
+    <hr>
+    Expiration: Month (MM) <input class= "textInput" type= "text" name= "month" maxlength="2">
+    Year (YY) <input class= "textInput" type= "text" name= "year" maxlength= "2">
+    </fieldset>
+
+    <label> Place Order:
+      <input type= "submit" value = "Submit">
+    </label>
+
+    <label id = "reset"> Reset Fields:
+      <input type= "reset">
+    </label>
+
+    </div>
+  </form>
+  </div>
+</body>
+</html>

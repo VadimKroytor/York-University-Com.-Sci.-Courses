@@ -1,0 +1,55 @@
+
+/* how to style with css */
+head {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+
+  border: 7px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/background.gif");
+  background-position: top ;
+  background-repeat: repeat;
+  background-attachment:fixed;
+  overflow: visible;
+
+width: 50%;
+height:50%;
+}
+
+
+
+
+/* id can only be used once */
+#red {
+  border: 2px solid red;
+}
+
+/* class can be reused as much as possible */
+.orange {
+  border: 2px solid orange;
+}
+
+.blue {
+  background-color: rgb(196, 226, 255);
+  border: 2px solid blue;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.purple {
+  border: 2px solid purple;
+}
+
+
+#yellow {
+  border: 2px solid yellow;
+}
+
+#white {
+  background-color:white;
+}
